@@ -39,11 +39,9 @@ def part1():
 def part2():
     total = 0
     for game in range(len(input)):
-        
         instance_max_red = 0
         instance_max_green = 0
         instance_max_blue = 0
-
         for pull in range(1, len(input[game])):
             instance = input[game][pull]
             if "red" in instance:        
